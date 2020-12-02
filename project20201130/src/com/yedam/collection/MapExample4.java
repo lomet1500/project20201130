@@ -1,8 +1,6 @@
-package com.yedam;
+package com.yedam.collection;
 
 import java.util.TreeSet;
-
-import com.yedam.collection.Student;
 
 public class MapExample4 {
 	public static void main(String[] args) {

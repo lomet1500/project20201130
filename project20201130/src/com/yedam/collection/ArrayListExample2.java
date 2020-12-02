@@ -12,6 +12,14 @@ public class ArrayListExample2 {
 		System.out.println("Hello".length());
 		System.out.println("Hello".length());
 		
+		List<String> olist = new ArrayList(); // generic 
+		olist.add("Hello");
+		
+		for(Object str : olist) {
+			String s = (String) str;
+			System.out.println(s);
+		}
+		
 		List<String> list = new ArrayList<>();
 		list.add(new String ("Hello"));
 		list.add(new String ("World"));
